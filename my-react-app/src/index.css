@@ -1,0 +1,28 @@
+.counter {
+
+    text-align: center;
+
+}
+
+.counter p {
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.counter button {
+    padding: 0 clamp(16px, 5%, 20vw);
+    height: 50px;
+    background-color: hsl(195, 3%, 70%);
+    border: none;
+    margin: 0 5px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.counter button:hover {
+    cursor: pointer;
+    background-color: hsl(195, 3%, 40%);
+}
